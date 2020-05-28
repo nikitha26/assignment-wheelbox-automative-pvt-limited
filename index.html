@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -12,32 +15,19 @@
 </head>
 <body>
     <div class="main">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <h1 class="text-center">6854</h1>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <h1 class="text-center">6854</h1>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <h1 class="text-center">6854</h1>
-            </div>
-        </div> 
+        <!-- Riders Section -->
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <h4 class="text-center">
-                    Riders
-                </h4>
+                <h1 class="text-center" id="riders">0</h1>
+                <h4 class="text-center">Riders</h4>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <h4 class="text-center">
-                    Rides
-                </h4>
+                <h1 class="text-center" id="rides">0</h1>
+                <h4 class="text-center"> Rides</h4>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <h4 class="text-center">
-                    Distence Travelled(Kms)
-                </h4>
+                <h1 class="text-center" id="distence">0</h1>
+                <h4 class="text-center"> Distence Travelled(Kms)</h4>
             </div>
         </div> 
         <div>
@@ -45,20 +35,22 @@
                 Don't believe us? Hear it from our customers.
             </h1>
         </div> 
-    
-         <div class="container">
+     <!-- Riders Section ended -->
+
+     <!-- Cards Section -->
+        <div class="container">
             <div class="row">
                 <div class="card-deck">
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="card">
+                        <div class="card myelement  animate__bounceInLeft">
                             <div class="card-body text-center">
-                                <img src="img/img1%20(1).png" alt="image" class=" rounded-circle image">
+                                <img src="img/model.png" alt="image" class="rounded-circle image">
                                 <div class="head"> 
-                                   <h4 class="paragraph heading"><b>Shubhamkumar</b></h4>
+                                   <h4 class="card-text paragraph heading"><b>Shubhamkumar</b></h4>
                                 </div>
                                 <p class="card-text paragraph">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.  
                                 </p>
                             </div>
                         </div>
@@ -66,7 +58,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="card">
                             <div class="card-body text-center">
-                                <img src="img/img1%20(1).png" alt="image" class=" rounded-circle image">
+                                <img src="img/screenshot.png" alt="image" class="rounded-circle image">
                                 <div class="head"> 
                                   <h4 class="card-text paragraph heading"><b>Shubhamkumar</b></h4>
                                 </div>
@@ -78,9 +70,9 @@
                         </div>
                     </div>  
                     <div class="col-lg-4 col-md-6 col-sm-12"> 
-                        <div class="card">
+                        <div class="card myelement animate__bounceInRight">
                             <div class="card-body text-center">
-                                <img src="img/img1%20(1).png" alt="image" class=" rounded-circle image">
+                                <img src="img/model1.png" alt="image" class="rounded-circle image">
                                 <div class="head"> 
                                  <h4 class="card-text paragraph heading"><b>Shubhamkumar</b></h4>
                                 </div>
@@ -93,7 +85,9 @@
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>
+      <!--Cards Section Ended  -->
     </div>     
 </body>
+<script src="example.js"></script>
 </html>
