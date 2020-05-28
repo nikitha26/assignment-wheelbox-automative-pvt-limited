@@ -7,7 +7,7 @@ body, html{
 .main{
     background-color:rgb(65,145,183);
     background-image: linear-gradient(to right,rgb(65,183,173),rgb(65,144,183));
-    min-height: 930px;
+    min-height: 980px;
 }
 .text-center{
     color: white;
